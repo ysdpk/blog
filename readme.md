@@ -1,27 +1,31 @@
-# Laravel PHP Framework
+# Cheap Talks
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Blog system development based on laravel  5.2
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+# Demo
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+演示地址：[http://www.ysd-pk.com/](http://www.ysd-pk.com/)
 
-## Official Documentation
+本项目使用MIT协议，你可以随性修改转发，如果喜欢这个项目，欢迎star!
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+# USAGE
 
-## Contributing
+1. clone blog 到你的服务器环境
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+	git clone https://github.com/loveship00/cheaptalks.git
+	
 
-## Security Vulnerabilities
+2. 切换到 blog 所在目录，使用composer 更新项目
+	
+	composer install
+	
+3. 修改 `.env.example` 为 `.env` 
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+4. 修改数据库配置`.env`,在数据库中创建一个`库`,把配置信息填写到配置文件中
 
-## License
+5. 安装数据库
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+    php artisan migrate
+
+
+
