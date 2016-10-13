@@ -8,7 +8,7 @@ Blog system development based on laravel  5.2
 
 本项目使用MIT协议，你可以随性修改转发，如果喜欢这个项目，欢迎star!
 
-# USAGE
+# Usage
 
 1. clone blog 到你的服务器环境
 
