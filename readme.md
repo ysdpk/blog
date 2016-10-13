@@ -1,4 +1,4 @@
-# Cheap Talks
+# Blog
 
 Blog system development based on laravel  5.2
 
